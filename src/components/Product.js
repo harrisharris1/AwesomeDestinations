@@ -4,7 +4,7 @@ import React from 'react';
 const Product= props => {
 	return (
 		<div className="item">
-			{/* <img src={props.product.image} alt={`${props.item.title}`} /> */}
+			<img src={props.product.image} alt="clothing"></img>
 
 			<h1 className="title">{props.product.title}</h1>
 

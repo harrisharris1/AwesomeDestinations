@@ -1,33 +1,34 @@
-// import "./images";
+
+
 
 
 export default [
     {
         id: 1,
-        title: "Black shirt Friday outfit",
+        title: "New York City",
         price: 30.99,
-        // image: url('../images/black-shirt.jpg'),
+        image: 'https://picsum.photos/id/1067/333/300'
     },
 
     {
         id:2,
-        title:"Look at me in brown boots",
+        title:"San Diego California",
         price:25.30,
-        // image: (url("../images/brown-outfit.jpg"))
+        image: 'https://picsum.photos/id/199/333/300'
     },
 
     {
         id:3,
-        title:"Cute winter",
+        title:"Vienna Italy",
         price: 21.90,
-        // image: url("../images/cozy-outfit.jpg"),
+        image: 'https://picsum.photos/id/164/333/300',
     },
 
     {
         id:4,
-        title:"Color me green",
+        title:"Los Cabos BC",
         price: 15.99,
-        // image: url("../images/green-sweater.jpg"),
+        image: 'https://picsum.photos/id/218/333/300',
     },
 
     // {
