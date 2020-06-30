@@ -6,7 +6,7 @@ const Item = props => {
 			<img src={props.image} alt={`${props.title}`} />
 
 
-			<div>
+			<div className="remove">
 				<h1>{props.title}</h1>
 				<p>$ {props.price}</p>
 				<button>Remove from cart</button>

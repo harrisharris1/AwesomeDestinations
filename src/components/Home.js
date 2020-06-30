@@ -2,15 +2,16 @@ import React from "react";
 
 
 
-const Home =()=>{
 
-    return(
+const Home =()=>(
+
         <div className="Home-page">
-            <div className="HomeContainer">
-               <h1>Great Destinations with One click</h1>
-            </div>
+               
+               <h1>Great Destinations<br>
+               </br>One click Away</h1>
+              
+               
         </div>
-    );
-}
+)
 
 export default Home

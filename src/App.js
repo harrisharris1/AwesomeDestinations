@@ -27,6 +27,11 @@ function App() {
 		      	<Navigation/>
 				  <Home/>
 		        	{/* Routes */}
+					<div className="More-info">
+                      <h2>Because you deserve a nice trip<br>
+                       </br>somewhere awesome</h2>
+					  
+                    </div>
 			
 		      	<Route exact path="/" component={Products}/>
 			      <Route path="/" component={ShoppingCart}/>

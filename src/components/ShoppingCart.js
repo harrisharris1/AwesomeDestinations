@@ -2,7 +2,7 @@ import React , {useContext} from 'react';
 import CartContext from "../context/CartContext";
 
 // Components
-import Item from './Clothes.js';
+import Item from './Destinations.js';
 
 const ShoppingCart = () => {
 	const cart = useContext(CartContext);
@@ -18,7 +18,7 @@ const ShoppingCart = () => {
 				<Item key={item.id} {...item} />
 			))}
 
-			<div className="shopping-cart__checkout">
+			<div className="shopping-cart-checkout">
 				<p>Total: ${getCartTotal()}</p>
 				<button>Checkout</button>
 			</div>
