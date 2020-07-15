@@ -295,7 +295,7 @@ html {
 
 }
 .More-info{
-	max-width: 1000px;
+	max-width: 100%;
 	margin:8%;
 	border-bottom: 2px solid black;
 }
